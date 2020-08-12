@@ -22,7 +22,7 @@ First, run the development server:
 
 ```bash
 # clone repository
-yarn create next-app -e gitclone_url
+yarn create next-app -e https://github.com/rigote/React-Avancado.git
 # after
 npm run dev
 # or
