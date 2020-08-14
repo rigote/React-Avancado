@@ -27,8 +27,6 @@ yarn create next-app -e https://github.com/rigote/React-Avancado.git
 npm run dev
 # or
 yarn dev
-# Create component with plop
-yarn generate component-name
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
@@ -45,6 +43,7 @@ You can start editing the page by modifying `pages/index.js`. The page auto-upda
 - `test:watch`: runs jest in watch mode
 - `storybook`: runs storybook on `localhost:6006`
 - `build-storybook`: create the build version of storybook
+- `yarn generate component-name`: creating components with file structures
 
 ## Learn More
 
