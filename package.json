@@ -21,7 +21,7 @@
   "lint-staged": {
     "src/**/*": [
       "yarn lint --fix",
-      "yarn test --findRalatedTests --bail"
+      "yarn test --findRelatedTests --bail"
     ]
   },
   "dependencies": {
@@ -59,6 +59,7 @@
     "jest": "^26.1.0",
     "jest-styled-components": "^7.0.2",
     "lint-staged": "^10.2.11",
+    "prettier": "^2.0.5",
     "typescript": "^3.9.7"
   }
 }
