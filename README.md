@@ -27,6 +27,8 @@ yarn create next-app -e https://github.com/rigote/React-Avancado.git
 npm run dev
 # or
 yarn dev
+# Create component with plop
+yarn generate component-name
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
