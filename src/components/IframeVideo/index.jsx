@@ -6,7 +6,7 @@ const IframeVideo = () => {
       <iframe
         width="400px"
         height="800px"
-        src="https://www.youtube.com/live_chat?v=VUE-2Gi73KA&amp;embed_domain=rigote-react-avancado.vercel.app"
+        src="https://www.youtube.com/live_chat?v=pd7rm-dtOts&amp;embed_domain=rigote-react-avancado.vercel.app"
       ></iframe>
     </S.Wrapper>
   )
