@@ -1,3 +1,4 @@
+import IframeVideo from 'components/IframeVideo'
 import * as S from './styles'
 
 const Main = ({
@@ -15,6 +16,7 @@ const Main = ({
       src="/img/hero-illustration.svg"
       alt="Um desenvolvedor de frente para uma tela com código."
     />
+    <IframeVideo />
   </S.Wrapper>
 )
 
