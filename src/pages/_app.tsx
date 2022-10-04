@@ -4,6 +4,7 @@ import Head from 'next/head'
 import GlobalStyles from 'styles/global'
 
 function App({ Component, pageProps }: AppProps) {
+  const GlobalStyleProxy: any = GlobalStyles
   return (
     <>
       <Head>
@@ -16,7 +17,7 @@ function App({ Component, pageProps }: AppProps) {
           content="A simple project starter to work with TypeScript, React, NextJS and Styled Components"
         />
       </Head>
-      <GlobalStyles />
+      <GlobalStyleProxy />
       <Component {...pageProps} />
     </>
   )
